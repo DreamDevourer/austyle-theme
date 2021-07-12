@@ -1,0 +1,17 @@
+{
+  "content_tags" : [ {
+    "name" : "NONPROFIT",
+    "source" : "MARKETPLACE"
+  }, {
+    "name" : "COMPATIBLE_ANY",
+    "source" : "MARKETPLACE"
+  } ],
+  "extra_classes" : "widget-type-linked_image",
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "../../../mV0_hubspot/img/icon/high-insertImage.svg",
+  "host_template_types" : [ "ANY" ],
+  "module_id" : 50647518040,
+  "label" : "Optimized Image module",
+  "is_available_for_new_content" : true
+}

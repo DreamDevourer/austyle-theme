@@ -1,0 +1,102 @@
+[ {
+  "id" : "cd4995a8-6aa5-935a-66df-519647000b3e",
+  "name" : "image_carousel_group",
+  "label" : "Image Carousel Group",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 0,
+    "max" : 20,
+    "sorting_label_field" : null,
+    "default" : 4
+  },
+  "children" : [ {
+    "id" : "8002d367-b5e4-055e-36f5-04c4467ccfb8",
+    "name" : "image_field",
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : true,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://www.remotish.agency/hubfs/bayi%20(1).png",
+      "alt" : "Woman",
+      "width" : 500,
+      "height" : 622,
+      "max_width" : 500,
+      "max_height" : 622,
+      "loading" : "lazy"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://www.remotish.agency/hubfs/bayi%20(1).png",
+      "alt" : "Woman",
+      "width" : 500,
+      "height" : 622,
+      "max_width" : 500,
+      "max_height" : 622,
+      "loading" : "lazy"
+    }
+  }, {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://www.remotish.agency/hubfs/bayi%20(1).png",
+      "alt" : "Woman",
+      "width" : 500,
+      "height" : 622,
+      "max_width" : 500,
+      "max_height" : 622,
+      "loading" : "lazy"
+    }
+  }, {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://www.remotish.agency/hubfs/bayi%20(1).png",
+      "alt" : "Woman",
+      "width" : 500,
+      "height" : 622,
+      "max_width" : 500,
+      "max_height" : 622,
+      "loading" : "lazy"
+    }
+  }, {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://www.remotish.agency/hubfs/bayi%20(1).png",
+      "alt" : "Woman",
+      "width" : 500,
+      "height" : 622,
+      "max_width" : 500,
+      "max_height" : 622,
+      "loading" : "lazy"
+    }
+  } ]
+}, {
+  "id" : "7c390623-b406-0e20-6d95-de8fe34ed79a",
+  "name" : "autoplay_",
+  "label" : "Autoplay?",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "44ae0d11-e788-4c36-bc0a-98ad43a581bf",
+  "name" : "back_shape_color",
+  "label" : "Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#E3A872",
+    "opacity" : 100
+  }
+} ]
