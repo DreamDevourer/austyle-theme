@@ -1,0 +1,14 @@
+{
+  "label" : "AUSTYLE Theme",
+  "preview_path" : "./templates/homepage.html",
+  "screenshot_path" : "./images/thumbnails/Thumbnail Theme.jpg",
+  "enable_domain_stylesheets" : false,
+  "responsive_breakpoints" : [ {
+    "name" : "mobile",
+    "previewWidth" : {
+      "value" : 477,
+      "units" : "px"
+    },
+    "mediaQuery" : "@media (max-width: 767px)"
+  } ]
+}

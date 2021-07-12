@@ -1,0 +1,41 @@
+{% include './generic/_reset.css' %}
+{% include './generic/_normalize.css' %}
+{% include './objects/_layout.css' %}
+{% include './objects/_containers-dnd.css' %}
+{% include './elements/_typography.css' %}
+{% include './elements/module_style.css' %}
+{% include './elements/_buttons.css' %}
+{% include './elements/_forms.css' %}
+{% include './elements/_tables.css' %}
+{% include './elements/_menus.css' %}
+{% include './components/_header.css' %}
+{% include './components/_footer.css' %}
+{% include './templates/_blog.css' %}
+{% include './templates/_system.css' %}
+
+{###########################################################################}
+{############################   11. Modules   ##############################}
+{###########################################################################}
+
+.moduleH2{
+    font-family: 'Niveau Grotesk';
+    color: #071835 !important;
+    padding: 0px 0 0 !important;
+    margin: 0 !important;
+    font-size: 34px !important;
+    line-height: 33px !important;
+    position: relative !important;
+    font-weight: 200 !important;
+    display: inline-block !important;
+}
+
+.moduleH3{
+    font-family: 'Niveau Grotesk' !important;
+    color: #071835 !important;
+   padding: 10px 0 10px !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    text-transform: uppercase !important;
+    font-weight: normal;
+}
