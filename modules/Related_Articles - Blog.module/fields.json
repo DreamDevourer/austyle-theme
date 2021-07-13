@@ -1,0 +1,12 @@
+[ {
+  "id" : "0364ed96-be45-d54f-44b8-d606d463f8a5",
+  "name" : "title",
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Related Articles"
+} ]

@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "icon" : "bandcamp",
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 49008734834,
+  "label" : "Header with Background",
+  "is_available_for_new_content" : true
+}

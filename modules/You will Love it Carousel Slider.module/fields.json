@@ -1,0 +1,129 @@
+[ {
+  "id" : "966e2501-644b-10b5-4354-ea96f876a13c",
+  "name" : "title",
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "You will love it"
+}, {
+  "id" : "606d503a-d2aa-3941-1824-b8f12c73d5c8",
+  "name" : "richtext_field",
+  "label" : "Rich text",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>Our clothes are exclusive, stylish and with a lot of production quality and final quality. Don't miss our new Clean Minimalist collection.</p>"
+}, {
+  "id" : "929882c8-4284-6a48-f987-07a7ed4644a5",
+  "name" : "button_text",
+  "label" : "Button Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Shop our new collections"
+}, {
+  "id" : "14b96bda-3fd9-e2ce-c7ae-831ac5fe1e38",
+  "name" : "button_link",
+  "label" : "Button link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+  "type" : "link",
+  "default" : {
+    "url" : {
+      "content_id" : null,
+      "type" : "EXTERNAL",
+      "href" : ""
+    },
+    "open_in_new_tab" : false,
+    "no_follow" : false
+  }
+}, {
+  "id" : "ab592ab1-dfdd-cfa6-eecb-7720f761a0fe",
+  "name" : "slider_group",
+  "label" : "Slider Group",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 4
+  },
+  "children" : [ {
+    "id" : "e0ca2549-4e11-1129-05b1-3ebd79cefed2",
+    "name" : "image_field",
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : true,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://www.remotish.agency/hubfs/Slide00.jpg",
+      "alt" : "Slide00",
+      "loading" : "lazy",
+      "width" : 625,
+      "height" : 689,
+      "max_width" : 625,
+      "max_height" : 689
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://www.remotish.agency/hubfs/Slide00.jpg",
+      "alt" : "Slide00",
+      "loading" : "lazy",
+      "width" : 625,
+      "height" : 689,
+      "max_width" : 625,
+      "max_height" : 689
+    }
+  }, {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://www.remotish.agency/hubfs/Slide00.jpg",
+      "alt" : "Slide00",
+      "loading" : "lazy",
+      "width" : 625,
+      "height" : 689,
+      "max_width" : 625,
+      "max_height" : 689
+    }
+  }, {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://www.remotish.agency/hubfs/Slide00.jpg",
+      "alt" : "Slide00",
+      "loading" : "lazy",
+      "width" : 625,
+      "height" : 689,
+      "max_width" : 625,
+      "max_height" : 689
+    }
+  }, {
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://www.remotish.agency/hubfs/Slide00.jpg",
+      "alt" : "Slide00",
+      "loading" : "lazy",
+      "width" : 625,
+      "height" : 689,
+      "max_width" : 625,
+      "max_height" : 689
+    }
+  } ]
+} ]

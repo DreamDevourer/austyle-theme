@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "icon" : "align-justify",
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 49008186637,
+  "label" : "Header",
+  "is_available_for_new_content" : true
+}

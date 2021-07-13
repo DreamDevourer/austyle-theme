@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "icon" : "https://www.chiefmartechofficer.com/hubfs/rock-and-rollo%20(2).svg",
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 49009549369,
+  "label" : "CTA Section",
+  "is_available_for_new_content" : true
+}

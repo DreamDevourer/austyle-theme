@@ -1,0 +1,53 @@
+[ {
+  "id" : "8c76be33-a325-ee57-3af7-166990e4cd28",
+  "name" : "image_field",
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : true,
+  "type" : "image",
+  "default" : {
+    "src" : "",
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "38cd456a-e226-31a8-aba8-87e980c7e2d2",
+  "name" : "title",
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "This Is a CTA"
+}, {
+  "id" : "4472aa76-e511-3b98-c05c-6c763ab93c16",
+  "name" : "richtext_field",
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p><span>Give them a really good reason to hit that big orange button.&nbsp;</span></p>"
+}, {
+  "id" : "d9136672-91b5-7725-264c-a7870ae4b0df",
+  "name" : "cta_field",
+  "label" : "CTA",
+  "required" : false,
+  "locked" : false,
+  "type" : "cta",
+  "default" : "49f7696d-88b8-4e54-9375-8e76756a8b42"
+}, {
+  "id" : "78fd81a0-1eac-2a9e-3902-e59a5cab876b",
+  "name" : "overlay_color",
+  "label" : "BG Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#19110B",
+    "opacity" : 100
+  }
+} ]

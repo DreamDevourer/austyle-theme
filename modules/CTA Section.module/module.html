@@ -1,0 +1,28 @@
+<div class="span12 ready-for-job bgimg-main2 green-overlay " style="background-image:url('{{ module.image_field.src }}')">
+  
+   <div class="container">
+      <div class="">
+         <h2>
+           {{ module.title }}
+        </h2>
+     </div>
+     <div class="details">
+       {{ module.richtext_field }}
+     </div>
+     <div class="cta-design">
+       {% cta guid="{{ module.cta_field }}" %}
+     </div>
+  </div>
+</div>
+
+{% require_css %}
+<style>
+#hs_cos_wrapper_{{name}}  .green-overlay:before { background-color:rgba({{ module.overlay_color.color|convert_rgb }},{{ module.overlay_color.opacity / 100 }}); opacity:1;  }
+#hs_cos_wrapper_{{name}} .bgimg-main2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+</style>
+{% end_require_css %}
+
