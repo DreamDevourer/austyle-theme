@@ -1,6 +1,6 @@
 # Contributing to the HubSpot CMS Boilerplate
 
-Thank you for helping out with the HubSpot CMS Boilerplate! We are always looking for people to help contribute to and improve upon the project and there are plenty of ways that you can get involved. Please take a moment to review this document so that the contribution process is easy and effective for everyone involved.
+Thank you for helping out with the Austyle Theme! We are always looking for people to help contribute to and improve upon the project and there are plenty of ways that you can get involved. Please take a moment to review this document so that the contribution process is easy and effective for everyone involved.
 
 ## Using the issue tracker
 
