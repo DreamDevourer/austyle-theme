@@ -7,7 +7,7 @@
 <p align="center">
   <a href=" ">Documentation</a> |
   <a href=" ">Demo website</a> |
-  <a href=" ">Contributing</a>
+  <a href="https://github.com/DreamDevourer/austyle-theme/blob/main/CONTRIBUTING.md">Contributing</a>
 </p>
 
 <img src="https://github.com/DreamDevourer/austyle-theme/blob/main/images/demo/CoverMain.png?raw=true"></img>
