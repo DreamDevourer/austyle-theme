@@ -8,6 +8,7 @@
   <a href="https://github.com/DreamDevourer/austyle-theme/blob/main/STYLEGUIDE.md">Styleguides</a> |
   <a href=" ">Demo website</a> |
   <a href="https://github.com/DreamDevourer/austyle-theme/blob/main/CONTRIBUTING.md">Contributing</a>
+  <a href="https://github.com/DreamDevourer/austyle-theme/blob/main/LICENSE">LICENSE</a>
 </p>
 
 <img src="https://github.com/DreamDevourer/austyle-theme/blob/main/images/demo/CoverMain.png?raw=true"></img>
