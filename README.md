@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href=" ">Documentation</a> |
+  <a href="https://github.com/DreamDevourer/austyle-theme/blob/main/STYLEGUIDE.md">Styleguides</a> |
   <a href=" ">Demo website</a> |
   <a href="https://github.com/DreamDevourer/austyle-theme/blob/main/CONTRIBUTING.md">Contributing</a>
 </p>
