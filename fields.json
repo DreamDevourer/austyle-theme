@@ -1,21 +1,4 @@
 [
-  { 
-   "id" : "357bacfa-2bb8-e996-4589-f55e10d4f1d4",
-   "name" : "image_field",
-   "label" : "Image",
-   "required" : false,
-   "locked" : false,
-   "responsive" : true,
-   "resizable" : true,
-   "show_loading" : false,
-   "type" : "image",
-   "default" : {
-     "size_type" : "auto",
-     "src" : "",
-     "alt" : null,
-     "loading" : "lazy"
-     }
-  },
   {
     "label": "Global colors",
     "name": "global_colors",
@@ -71,7 +54,8 @@
           }
         },
         "default": {
-          "font": "Lato",
+          "fallback": "sans-serif",
+          "font": "'Lato',sans-serif",
           "font_set": "GOOGLE"
         }
       },
@@ -92,7 +76,8 @@
           }
         },
         "default": {
-          "font": "Crimson Text",
+          "fallback": "serif",
+          "font": "'Crimson Text',serif",
           "font_set": "GOOGLE"
         }
       }
@@ -103,15 +88,6 @@
     "name": "header",
     "type": "group",
     "children": [
-      {
-        "label": "Background color",
-        "name": "background_color",
-        "type": "color",
-        "default": {
-          "color": "#FFF",
-          "opacity": 100
-        }
-      },
       {
         "label": "Menu link color",
         "name": "menu_link_color",
@@ -528,15 +504,6 @@
         }
       },
       {
-        "label": "Footer background color",
-        "name": "footer_background_color",
-        "type": "color",
-        "default": {
-          "color": "#19110B",
-          "opacity": 100
-        }
-      },
-      {
         "label": "Footer text color",
         "name": "footer_text_color",
         "type": "color",
@@ -612,6 +579,15 @@
           "property_value_paths": {
             "color": "theme.global_colors.secondary_color.color"
           }
+        }
+      },
+      {
+        "label": "Border color",
+        "name": "border_top_color",
+        "type": "color",
+        "default": {
+          "color": "#2B2B2B",
+          "opacity": 100
         }
       }
     ]

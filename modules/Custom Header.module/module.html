@@ -1,5 +1,5 @@
 <header class="row-fluid black-header nav-down">
-<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid-wrapper row-depth-1 row-number-1 " id="whitePartialBack">
     <div class="row-fluid "> 
         <div class="span12 widget-span widget-type-cell header nav-down" id="headerContentMain" style="" data-widget-type="cell" data-x="0" data-w="12">
             <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
@@ -52,7 +52,7 @@
                                     <!--end row-wrapper -->
                                 </div>
                                 <!--end widget-span --> 
-                                <div class="{% if module.include_cta %}span8{% else %}span12{% endif %} widget-span widget-type-cell navigation-row" style="" data-widget-type="cell" data-x="3" data-w="6">
+                                <div class="{% if module.include_cta %}span8{% else %}span12{% endif %} widget-span widget-type-cell navigation-row" style="" {% if module.include_cta %} id="withCTA" {% endif %} data-widget-type="cell" data-x="3" data-w="6">
                                     <div class="row-fluid-wrapper row-depth-1 row-number-6 ">
                                         <div class="row-fluid ">
                                             <div class="span12 widget-span widget-type-custom_widget navigation mainmenu js-enabled" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
@@ -157,9 +157,7 @@
                                     <!--end row-->
                                 </div>
                                 <!--end row-wrapper -->
-                            </div>
-                            <!--end widget-span -->
-                           
+                                                             
                           {% if module.include_cta %}
                             <div class="span2 widget-span widget-type-cell cta-cover-header" style="" data-widget-type="cell" data-x="9" data-w="3">
                                 <div class="row-fluid-wrapper row-depth-1 row-number-7 ">
@@ -185,6 +183,8 @@
                                 <!--end row-wrapper -->
                             </div>
                           {% endif %}
+                            </div>
+                            <!--end widget-span -->
                               
                             <!--end widget-span -->
                         </div>

@@ -9,9 +9,9 @@
 
 {% block body %}
 <main class="body-container-wrapper">
-  {% dnd_area 'dnd_area' class='body-container body-container--about', label='Main section' %}
+  {% dnd_area 'dnd_area' class='body-container body-container--about', flexbox_positioning="TOP_CENTER", label='Main section' %}
 
-   {# about us First section #}
+   {# about us First section  #}
     {% dnd_section 
      padding={
         'top': 200,
@@ -115,6 +115,22 @@
   
     {% end_dnd_section %}
    {# end about us First section #}
+  
+    {# Info Cards #}
+    {% dnd_section 
+     padding={
+        'top': 0,
+        'bottom': 172,
+        'left': 0,
+        'right': 0
+      },
+       %}
+  
+      {% dnd_module path="../modules/informational-cards", label="informational-cards" %}
+      {% end_dnd_module %}
+  
+   {% end_dnd_section %}
+   {# end Informational Cards section #}
   
 
   

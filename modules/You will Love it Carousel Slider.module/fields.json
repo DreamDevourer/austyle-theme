@@ -126,4 +126,83 @@
       "max_height" : 689
     }
   } ]
+}, {
+  "id" : "styles",
+  "name" : "styles",
+  "label" : "Styles",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "styles.corner",
+    "name" : "corner",
+    "label" : "Boxes Radius",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "styles.corner.radius",
+      "name" : "radius",
+      "label" : "Radius",
+      "required" : false,
+      "locked" : false,
+      "display" : "slider",
+      "max" : 100,
+      "step" : 1,
+      "suffix" : "px",
+      "type" : "number"
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group"
+  }, {
+    "id" : "styles.boxes_bg",
+    "name" : "boxes_bg",
+    "label" : "Boxes Background",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "styles.boxes_bg.bg_color",
+      "name" : "bg_color",
+      "label" : "Background color",
+      "required" : false,
+      "locked" : false,
+      "type" : "color",
+      "default" : {
+        "color" : "#ffffff",
+        "opacity" : 100
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group"
+  }, {
+    "id" : "styles.boxes_padding",
+    "name" : "boxes_padding",
+    "label" : "Boxes spacing",
+    "required" : false,
+    "locked" : false,
+    "type" : "spacing",
+    "default" : {
+      "padding" : {
+        "top" : {
+          "value" : 30,
+          "units" : "px"
+        },
+        "bottom" : {
+          "value" : 30,
+          "units" : "px"
+        },
+        "left" : {
+          "value" : 30,
+          "units" : "px"
+        },
+        "right" : {
+          "value" : 30,
+          "units" : "px"
+        }
+      }
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group"
 } ]

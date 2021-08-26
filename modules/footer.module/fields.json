@@ -3,7 +3,7 @@
   "name" : "footer_column_1",
   "label" : "Footer Column 1",
   "required" : false,
-  "locked" : true,
+  "locked" : false,
   "children" : [ {
     "id" : "339c2386-b684-6686-b9e0-e992fc1a5977",
     "name" : "footer_logo",
@@ -22,74 +22,6 @@
       "height" : 25,
       "loading" : "lazy"
     }
-  }, {
-    "id" : "dfb8650f-fe00-1933-31e6-06b2fd4308ea",
-    "name" : "richtext_field",
-    "label" : "Rich text",
-    "required" : false,
-    "locked" : false,
-    "type" : "richtext",
-    "default" : "<p>One line about who you are and who you serve.&nbsp;</p>"
-  }, {
-    "id" : "beb5a247-e854-0e44-031a-c21330ea487c",
-    "name" : "enable_socials",
-    "label" : "enable socials?",
-    "required" : false,
-    "locked" : false,
-    "display" : "checkbox",
-    "type" : "boolean",
-    "default" : false
-  }, {
-    "id" : "c80cd45a-3735-d9a1-82c5-d3f3c666ae11",
-    "name" : "facebook",
-    "label" : "Facebook",
-    "required" : false,
-    "locked" : false,
-    "validation_regex" : "",
-    "allow_new_line" : false,
-    "show_emoji_picker" : false,
-    "type" : "text",
-    "default" : "https://www.facebook.com/Chief-Martech-Officer-2141721729485675"
-  }, {
-    "id" : "c535986f-47c9-2410-7195-8b9c14e47ddd",
-    "name" : "instagram",
-    "label" : "instagram",
-    "required" : false,
-    "locked" : false,
-    "validation_regex" : "",
-    "allow_new_line" : false,
-    "show_emoji_picker" : false,
-    "type" : "text"
-  }, {
-    "id" : "43ff3fe5-004d-ff9a-749c-2f57275bd3eb",
-    "name" : "twitter",
-    "label" : "twitter",
-    "required" : false,
-    "locked" : false,
-    "validation_regex" : "",
-    "allow_new_line" : false,
-    "show_emoji_picker" : false,
-    "type" : "text"
-  }, {
-    "id" : "90df12ac-c03a-cb98-ded9-d52b18233f7d",
-    "name" : "linkedin",
-    "label" : "linkedin",
-    "required" : false,
-    "locked" : false,
-    "validation_regex" : "",
-    "allow_new_line" : false,
-    "show_emoji_picker" : false,
-    "type" : "text"
-  }, {
-    "id" : "f52a7b6e-7a00-924c-4c81-0dbac30d040d",
-    "name" : "youtube",
-    "label" : "youtube",
-    "required" : false,
-    "locked" : false,
-    "validation_regex" : "",
-    "allow_new_line" : false,
-    "show_emoji_picker" : false,
-    "type" : "text"
   } ],
   "tab" : "CONTENT",
   "expanded" : false,
@@ -102,10 +34,7 @@
       "width" : 164,
       "height" : 25,
       "loading" : "lazy"
-    },
-    "richtext_field" : "<p>One line about who you are and who you serve.&nbsp;</p>",
-    "enable_socials" : false,
-    "facebook" : "https://www.facebook.com/Chief-Martech-Officer-2141721729485675"
+    }
   }
 }, {
   "id" : "55c805aa-8cb8-7b27-b778-532683d7fe40",

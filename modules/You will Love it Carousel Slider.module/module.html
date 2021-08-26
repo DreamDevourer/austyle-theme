@@ -1,3 +1,44 @@
+{% require_css %}
+<style>
+{% scope_css %}
+   .imag_img {
+   
+   {% if module.styles.boxes_bg.bg_color.color %}
+   background-color: {{ module.styles.boxes_bg.bg_color.color }};
+   {% endif %}
+   
+   {% if module.styles.corner.radius %}
+   border-radius:{{ module.styles.corner.radius ~ 'px' }};
+   {% endif %}
+   
+   {% if module.styles.boxes_padding.padding.bottom %}
+   padding-bottom:{{ module.styles.boxes_padding.padding.bottom.value ~ 'px' }};
+   {% endif %}
+   
+   {% if module.styles.boxes_padding.padding.top %}
+   padding-top:{{ module.styles.boxes_padding.padding.top.value ~ 'px' }};
+   {% endif %}
+   
+   {% if module.styles.boxes_padding.padding.left %}
+   padding-left:{{ module.styles.boxes_padding.padding.left.value ~ 'px' }};
+   {% endif %}
+   
+   {% if module.styles.boxes_padding.padding.right %}
+   padding-right:{{ module.styles.boxes_padding.padding.right.value ~ 'px' }};
+   {% endif %}
+   
+   {% if module.styles.boxes_padding.margin.bottom %}
+   margin-bottom:{{ module.styles.boxes_padding.margin.bottom.value ~ 'px' }};
+   {% endif %}
+   
+   {% if module.styles.boxes_padding.margin.top %}
+   margin-top:{{ module.styles.boxes_padding.margin.top.value ~ 'px' }};
+   {% endif %} 
+    
+ } 
+{% end_scope_css %}
+</style>
+{% end_require_css %}
 <section class="carousel_love__main">
     <div class="">
         <div class="carousel_love__row">

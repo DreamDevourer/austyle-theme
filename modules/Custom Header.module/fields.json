@@ -48,7 +48,7 @@
   "allow_new_line" : false,
   "show_emoji_picker" : false,
   "type" : "text",
-  "default" : "https://www.remotish.agency/epic-roi-theme/home-page"
+  "default" : ""
 }, {
   "id" : "e2c54af5-387c-2d7a-3d5a-cf48b274ac55",
   "name" : "menu_field",

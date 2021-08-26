@@ -1,23 +1,21 @@
- <div class="related-title">
-               <h2>
-             {{ module.title }}    
+<div class="related-title">
+   <h2>
+    {{ module.title }}    
    </h2>
-           </div>
-
+</div>
 {% if content.topic_list %}
- 
     {% set max_posts = 3 %} <!-- Set the max number of related posts to be output to the page here -->
     {% set count = 0 %}
     {% for topic in content.topic_list %}
         {% if loop.index  == 1 %}
-            {% set topic_one = blog_recent_topic_posts('5400230336', topic.slug, max_posts + 1 ) %}
+            {% set topic_one = blog_recent_topic_posts(group.id, topic.slug, max_posts + 1 ) %}
             {% if topic_one|length == 1 %}
                 <p>There are no related posts</p>
             {% endif %}
         {% elif loop.index == 2 %}
-            {% set topic_two = blog_recent_topic_posts('5400230336', topic.slug, max_posts + 1 ) %}
+            {% set topic_two = blog_recent_topic_posts(group.id, topic.slug, max_posts + 1 ) %}
         {% elif loop.index == 3 %}
-            {% set topic_three = blog_recent_topic_posts('5400230336', topic.slug, max_posts + 1 ) %}
+            {% set topic_three = blog_recent_topic_posts(group.id, topic.slug, max_posts + 1 ) %}
         {% endif %}
         {% if loop.length >= 3 and loop.index == 3 %}
             {% set related_posts = (topic_one + topic_two + topic_three)|sort(true, false, 'publish_date')|unique('name') %}
@@ -33,15 +31,11 @@
             {% for post in related_posts %}
                 {% if content.absolute_url != post.absolute_url and count < max_posts %}
                         <div class="post-item">
-
-
                           {% if post.post_list_summary_featured_image %}
                           <div class="post-item-featured">
                             <a href="{{post.absolute_url}}" title="" class="hs-featured-image-link" style="background-image:url('{{ post.post_list_summary_featured_image }}')">
-
                             </a>
                             {% if post.show_summary_in_listing %} 
-
                             <a class="more-link" href="{{ post.absolute_url }}">  <svg class="svg svg--readmore" width="23px" height="14px" viewBox="0 0 23 14" version="1.1" role="img" aria-label="Read More">
                               <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g transform="translate(-651.000000, -4575.000000)" fill="#FFFFFF">
@@ -56,55 +50,32 @@
                             {% endif %}
                           </div>
                           {% endif %}
-
-
                           <div class="post-body clearfix">
                             <!--post summary-->
                             <div class="post-category">
                               {% if post.topic_list %}
                               <div id="hubspot-topic_data"> 
                                 {% for topic in post.topic_list %}
-
                                    {% if loop.index < 3 %} <a class="topic-link" href="{{ blog_tag_url(group.id, topic.slug) }}">{{ topic.name }}</a>{% if not loop.last %} {% endif %} {% endif %}
                                 {% endfor %}
                               </div>
                               {% endif %}
                             </div>
-
                             <div class="post-item-title">
                               <h3><a href="{{post.absolute_url}}">{{ post.name }}</a></h3>
                             </div>
-
                             <div class="post-item-details">
                               {{ post.post_list_content|safe|striptags|truncate(200) }}
                             </div>
-
                             <div id="hubspot-author_data" class="hubspot-editable" data-hubspot-form-id="author_data" data-hubspot-name="Blog Author">
-
                               {%if post.blog_post_author %}
                               <a class="author-link" href="{{ blog_author_url(group.id, post.blog_post_author.slug) }}">
                                 <img src="{{ post.blog_post_author.avatar }}" alt="Picture of {{ post.blog_post_author.display_name }}">
                                 <span>{{ post.blog_post_author.display_name }}</span>
                               </a> 
-                              <span >
                                 {% endif %}
-                                {% set initialPostWords = content.post_body|wordcount %}
-                                {% set calculatedPostWords = (initialPostWords/100) * 100 %}
-                                {% set finishedPostWords = calculatedPostWords|divide(130)|round(2) %}
-                                {% set number = finishedPostWords|round %}
-                                {% if number < 1 %}
-
-                                {% else %}
-                                {{ finishedPostWords|round }} Min Read
-                                {% endif %}
-                              </span>
                             </div>  
-
-
                           </div>
-
-
-
                         </div>
                     {% set count = count + 1 %}
                 {% endif %}
@@ -112,6 +83,3 @@
         {% endif %}
     {% endfor %}
 {% endif %} 
-
-
-

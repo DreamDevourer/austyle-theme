@@ -199,11 +199,11 @@ blockquote {
 {############################   4. Buttons   ###############################}
 {###########################################################################}
 
-.row-fluid .cta-design a{    background-color: {{ button_bg_color }};
+.row-fluid .cta-design a{ background-color: {{ button_bg_color }};
   border: {{ button_border }};
   border-radius: {{ button_corner_radius }};
   color: {{ button_font_color }};
-  padding: {{ button_spacing }};  text-align:center;   min-width: 130px;  display: inline-block;    padding: 13px 24px;   font-size: 16px; }
+  padding: {{ button_spacing }};  text-align:center;   min-width: 130px;  display: inline-block;    padding: 13px 5px;   font-size: 16px; }
 
  .row-fluid .get-freecopy input[type=submit]{ 
      background: {{ button_bg_color }};
@@ -215,13 +215,15 @@ blockquote {
    text-transform: uppercase;  min-width: inherit;  max-width: 154px;  width: 100%;  height: 50px; }
 
 .row-fluid .container{ max-width:{{container_width}}; margin:0 auto !important; float:none; padding:0 15px; }
-.row-fluid .footer { float:left; width:100%; background-color:{{footer_bg_color}} ; padding-top: 80px;  text-align:left;   border-top: 2px solid rgba(207,215,223,.25); }
+.row-fluid .footer { float:left; width:100%; background-color:{{footer_bg_color}} ; text-align:left; }
 .row-fluid .f-details { color: {{footer_font_color}};font-weight:400; font-size: 17px;  padding-top: 20px; max-width: 401px; line-height: 25px; opacity: 0.9; }
 .row-fluid .footer-link ul li a { color: {{footer_font_color}}; padding: 6px 0px; width: 100%;  font-weight:400; opacity: 0.9;  }
 
 .row-fluid .email-address { color: {{footer_font_color}}; line-height: 27px; opacity: 0.9; font-weight: 400; }
 .row-fluid .copyright { max-width:{{container_width}};     margin: 0 auto;  color: {{footer_font_color}};font-weight: 400; font-size: 15px; opacity: 0.7; padding: 30px 0; margin-top: 10px;     }
 .email-address a { color:{{ anchor_font_color }}; }
+
+body > div.body-wrapper.hs-content-id-49099611227.hs-site-page.page > div:nth-child(1) > div > div > div > div > div, #whitePartialBack { background-color: white; }
  
 
 button,

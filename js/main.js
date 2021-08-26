@@ -98,18 +98,9 @@ $('.downarrow a').click(function() {
   $( ".blog-subscrib-row" ).insertAfter( ".listing-row2 .post-item:nth-child(2)" );
   $( ".popular-post-row" ).insertAfter( ".listing-row2 .post-item:nth-child(3)" );
 
+  
     
-
-  
-
-
-
-jQuery(window).load(function() {
-
-   
-  $(".blog-subscrib-row form .input input").attr("placeholder", "Email Address");
-  
-  $(".system-serach form .input input").attr("placeholder", "Search");
-
-  
 });
+  
+
+

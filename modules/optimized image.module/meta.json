@@ -9,7 +9,7 @@
   "extra_classes" : "widget-type-linked_image",
   "global" : false,
   "master_language" : "en",
-  "icon" : "../../../mV0_hubspot/img/icon/high-insertImage.svg",
+  "icon" : "fontawesome-5.14.0:Border%20None:SOLID",
   "host_template_types" : [ "ANY" ],
   "module_id" : 50647518040,
   "label" : "Optimized Image module",

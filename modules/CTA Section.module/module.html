@@ -1,16 +1,37 @@
 <div class="span12 ready-for-job bgimg-main2 green-overlay " style="background-image:url('{{ module.image_field.src }}')">
   
    <div class="container">
-      <div class="">
-         <h2>
+      <div class="text-color">
+         <h2 class="text-color">
            {{ module.title }}
         </h2>
      </div>
-     <div class="details">
+     <div class="details" class="text-color">
        {{ module.richtext_field }}
      </div>
      <div class="cta-design">
-       {% cta guid="{{ module.cta_field }}" %}
+       {# New CTA #}
+       <div class="pricemulti__btn button_design">
+                    
+                    {% set href = module.cta_options.button_link.url.href %}
+                    {% if module.cta_options.button_link.url.type is equalto "EMAIL_ADDRESS" %}
+                    {% set href = "mailto:" + href %}
+                    {% endif %}
+                    {% set rel = [] %}
+                    {% if module.cta_options.button_link.no_follow %}
+                    {% do rel.append("nofollow") %}
+                    {% endif %}
+                    {% if module.cta_options.button_link.open_in_new_tab %}
+                    {% do rel.append("noopener") %}
+                    {% endif %}
+                    <a href="{{ href }}"
+                       {% if module.cta_options.button_link.open_in_new_tab %}target="_blank"{% endif %}
+                       {% if rel %}rel="{{ rel|join(" ") }}"{% endif %}
+                       >
+                      {{ module.cta_options.button_text }}
+                    </a>
+                     
+       </div>
      </div>
   </div>
 </div>
@@ -23,6 +44,7 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+  .text-color { color: {{ module.text_color.color }}; }
 </style>
 {% end_require_css %}
 

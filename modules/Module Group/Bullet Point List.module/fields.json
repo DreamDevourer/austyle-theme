@@ -1,7 +1,7 @@
 [ {
   "id" : "a4a39ec4-99e3-0c78-6c67-84ee825b8e45",
   "name" : "bg_color",
-  "label" : "BG color",
+  "label" : "Background Color",
   "required" : false,
   "locked" : false,
   "type" : "color",

@@ -40,12 +40,37 @@ function hasScrolled() {
 }
 
 // Mobile Menu
-const targetDiv = document.getElementById("menuMobileContent");
-const btn = document.getElementById("mobileHamburguer");
-btn.onclick = function () {
-  if (targetDiv.style.display !== "none") {
-    targetDiv.style.display = "none";
-  } else {
-    targetDiv.style.display = "flex";
-  }
-};
+// const targetDiv = document.getElementById("menuMobileContent");
+// const btn = document.getElementById("mobileHamburguer");
+// btn.onclick = function () {
+//   if (targetDiv.style.display !== "none") {
+//     targetDiv.style.display = "none";
+//   } else {
+//     targetDiv.style.display = "flex";
+//   }
+// };
+
+
+
+
+
+
+
+// $('a.mobile-trigger').click(function() {
+//   $(this).next('.hs-menu-flow-horizontal').slideToggle(250);
+//   $('body').toggleClass('mobile-open');
+//   $('span.child-triggerm').removeClass('child-open');
+//   $('.hs-menu-children-wrapper').slideUp(250);
+//   return false;
+// });
+
+//     $('.mainmenu span.child-triggerm').click(function() {
+//         $(this).parent().siblings('.hs-item-has-children').find('span.child-triggerm').removeClass('child-open');
+//         $(this).parent().siblings('.hs-item-has-children').find('.hs-menu-children-wrapper').slideUp(250);
+//         $(this).next('.hs-menu-children-wrapper').slideToggle(250);
+//         $(this).next('.hs-menu-children-wrapper').children('.hs-item-has-children').find('.hs-menu-children-wrapper').slideUp(250);
+//         $(this).next('.hs-menu-children-wrapper').children('.hs-item-has-children').find('span.child-triggerm').removeClass('child-open');
+//         $(this).toggleClass('child-open');
+//         return false;
+//     });
+

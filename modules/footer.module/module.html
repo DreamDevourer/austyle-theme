@@ -13,29 +13,7 @@
           {% set loadingAttr = module.footer_column_1.footer_logo.loading != 'lazy' ? 'loading="{{ module.footer_column_1.footer_logo.loading }}"' : '' %}
           <img loading="lazy" src="{{ module.footer_column_1.footer_logo.src }}" alt="{{ module.footer_column_1.footer_logo.alt }}" {{ sizeAttrs }} {{ loadingAttr }}>
           {% endif %}
-       </div>
-       {% if module.footer_column_1.enable_socials %}
-       <div class="folap-language">
-         <ul class="sociale-share">
-
-           <li><a href="{{ module.footer_column_1.facebook }}" target="_blank"> <i class="fa fa-facebook-square"></i> </a></li>
-           <li><a href="{{ module.footer_column_1.instagram }}" target="_blank"> <i class="fa fa-instagram"></i> </a></li>
-           <li><a href="{{ module.footer_column_1.twitter }}" target="_blank"> <i class="fa fa-twitter-square"></i> </a></li>  
-
-           <li><a href="{{ module.footer_column_1.linkedin }}" target="_blank"> <i class="fa fa-linkedin"></i>
-             </a></li>
-
-           <li><a href="{{ module.footer_column_1.youtube }}" target="_blank"> <i class="fa fa-youtube-play" aria-hidden="true"></i>
-             </a></li>
-
-
-
-         </ul>
-       </div>
-       {% endif %}
-       
-
-       
+       </div>  
      </div>
      <div class="span3 widget-span widget-type-cell f-column">
         <div class="footer-logos1">
@@ -67,11 +45,11 @@
 </div>
 </div>
 
-<div class="row-fluid" id="turnMeToFuckingBlack">
+<div class="row-fluid" id="darkBack">
   <div class="copyright text-center">
     {% for menusFooter in module.menugroup %}
     <li class="hs-menu-item hs-menu-depth-1 " aria-role="none">
-      <a href="{{menusFooter.link}}" aria-role="menuitem" style="color: #fff;">{{menusFooter.menu_name}}</a>                                          
+      <a href="{{menusFooter.link}}" aria-role="menuitem" id="footerText">{{menusFooter.menu_name}}</a>                                          
      </li>
     {% endfor %} 
     <div class="copyrightPara">
