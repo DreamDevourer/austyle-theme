@@ -11,9 +11,9 @@
   <a href="https://github.com/DreamDevourer/austyle-theme/blob/main/LICENSE">License</a>
 </p>
 
-<img src="https://github.com/DreamDevourer/austyle-theme/blob/main/images/demo/CoverMain.png?raw=true"></img>
+<img src="https://github.com/DreamDevourer/austyle-theme/blob/main/screenshots/Austyle_Main.png?raw=true"></img>
 <br>
-<img src="https://github.com/DreamDevourer/austyle-theme/blob/main/images/demo/Cover4.png?raw=true"></img>
+<img src="https://github.com/DreamDevourer/austyle-theme/blob/main/screenshots/Austyle_B2C.png?raw=true"></img>
 <br>
 ## Free and Open Source Theme
 It's a free and open-source theme made by me and with help of Remotish Agency, designed in Figma to be modern, clean and developed with optimization in mind.
