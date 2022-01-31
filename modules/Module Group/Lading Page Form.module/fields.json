@@ -1,6 +1,7 @@
 [ {
   "id" : "98ffe0fb-5cc2-d2bc-a3a9-cc8efda667ee",
   "name" : "details",
+  "display_width" : null,
   "label" : "Details",
   "required" : false,
   "locked" : false,
@@ -9,6 +10,7 @@
 }, {
   "id" : "9ed13195-0ee1-3dd8-7db5-b253fe61049a",
   "name" : "form_field",
+  "display_width" : null,
   "label" : "Form",
   "required" : false,
   "locked" : false,

@@ -14,8 +14,7 @@
     {{ require_css(get_asset_url('../../css/main.css')) }}
     {{ require_css("https://fonts.googleapis.com/css?family=Lato:400,700|Crimson Text:400,700&display=swap") }}
     {{ require_css(get_asset_url('../../css/theme-overrides.css'))}} 
-    {{ require_css(get_asset_url('../../css/style.css')) }}
-    {{ require_css(get_asset_url('../../css/Style2.css')) }}
+    {{ require_css(get_asset_url('../../css/style.css'), { async: true }) }}
     {{ require_js(get_asset_url('../../js/main.js')) }}
    {{ standard_header_includes }}
 </head>
@@ -26,12 +25,9 @@
       {% block body %} {% endblock body %} {% block footer %}
       {% global_partial path='../partials/footer.html' %} {% endblock footer %}
     </div>
-		
-    {{ standard_footer_includes }}
-</body>
-<footer>
-    {% if not site_settings.include_jquery %}
+		  {% if not site_settings.include_jquery %}
       {{ require_js("https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js", "head") }}
     {% endif %} 
-</footer>
+    {{ standard_footer_includes }}
+</body>
 </html>

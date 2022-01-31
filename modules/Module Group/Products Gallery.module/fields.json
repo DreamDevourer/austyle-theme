@@ -1,6 +1,7 @@
 [ {
   "id" : "87ed128c-ce2c-ba26-0b26-7d850a05494f",
   "name" : "select_image_gallery_style",
+  "display_width" : null,
   "label" : "Select Image Gallery Style",
   "required" : false,
   "locked" : true,
@@ -11,6 +12,7 @@
 }, {
   "id" : "5661b806-827d-36e5-7ffe-70ee093c0598",
   "name" : "square_style",
+  "display_width" : null,
   "label" : "Products",
   "required" : false,
   "locked" : false,
@@ -24,6 +26,7 @@
   "children" : [ {
     "id" : "a9f16d72-2187-9f92-7f80-f665035fe154",
     "name" : "on_off_filter",
+    "display_width" : null,
     "label" : "On/Off Filter",
     "required" : false,
     "locked" : false,
@@ -33,6 +36,7 @@
   }, {
     "id" : "37173935-fa61-2ec2-328b-d5008a626649",
     "name" : "top_filter_navigation",
+    "display_width" : null,
     "label" : "Top Filter Navigation",
     "required" : false,
     "locked" : false,
@@ -52,6 +56,7 @@
     "children" : [ {
       "id" : "46f4d96b-09db-0fe4-288a-e40bec8bd9b7",
       "name" : "filter_name",
+      "display_width" : null,
       "label" : "Filter Name",
       "required" : false,
       "locked" : false,
@@ -80,6 +85,7 @@
   }, {
     "id" : "10dc70eb-fd20-316c-263e-da6a91783d2e",
     "name" : "image_group",
+    "display_width" : null,
     "label" : "Image Group",
     "required" : false,
     "locked" : false,
@@ -92,6 +98,7 @@
     "children" : [ {
       "id" : "0f74dcbd-a54a-3f3e-4a46-7837cbb70009",
       "name" : "image_field_1",
+      "display_width" : null,
       "label" : "Image",
       "required" : false,
       "locked" : false,
@@ -112,6 +119,7 @@
     }, {
       "id" : "9ade421b-6752-0744-ceac-934526362f5b",
       "name" : "title",
+      "display_width" : null,
       "label" : "Title",
       "required" : false,
       "locked" : false,
@@ -123,6 +131,7 @@
     }, {
       "id" : "c5ed2e46-15c6-a615-c60d-f99e4d949bf3",
       "name" : "off_on_text",
+      "display_width" : null,
       "label" : "Off/On text",
       "required" : false,
       "locked" : false,
@@ -132,6 +141,7 @@
     }, {
       "id" : "c475ad0d-a3ae-4de8-6972-093b90eea46d",
       "name" : "richtext_field",
+      "display_width" : null,
       "label" : "Rich text",
       "required" : false,
       "locked" : false,
@@ -147,6 +157,7 @@
     }, {
       "id" : "c3e7f259-edfe-ade8-21dc-5bad47f80361",
       "name" : "hide_date",
+      "display_width" : null,
       "label" : "ON/ Off - Date",
       "required" : false,
       "locked" : false,
@@ -156,6 +167,7 @@
     }, {
       "id" : "33a917fe-fb75-383f-4d77-d0f3869a839b",
       "name" : "date_field",
+      "display_width" : null,
       "label" : "Date",
       "required" : false,
       "locked" : false,
@@ -171,6 +183,7 @@
     }, {
       "id" : "e959b7f3-23bb-fe86-236a-27d322e0f2b2",
       "name" : "divider",
+      "display_width" : null,
       "label" : "Divider",
       "required" : false,
       "locked" : false,
@@ -180,6 +193,7 @@
     }, {
       "id" : "650e0b47-546b-379e-91a8-a4f94d75c661",
       "name" : "divider_color",
+      "display_width" : null,
       "label" : "Divider Color",
       "required" : false,
       "locked" : false,
@@ -198,6 +212,7 @@
     }, {
       "id" : "529e47ea-2a3b-5c0b-51e2-a97f7813630e",
       "name" : "categories_group",
+      "display_width" : null,
       "label" : "Categories Group",
       "required" : false,
       "locked" : false,
@@ -217,6 +232,7 @@
       "children" : [ {
         "id" : "bf012a36-d257-af7e-836a-3b361826a415",
         "name" : "add_category_name",
+        "display_width" : null,
         "label" : "Add Category Name",
         "inline_help_text" : "Add the name of categories. ",
         "required" : false,
@@ -236,6 +252,7 @@
     }, {
       "id" : "43d29591-6093-09c5-6c4b-4e98ba6f4d51",
       "name" : "link_product",
+      "display_width" : null,
       "label" : "Link",
       "required" : false,
       "locked" : false,
@@ -553,6 +570,7 @@
   }, {
     "id" : "5ca9bbff-ccfd-ce53-c906-510ef43c2080",
     "name" : "image_radius",
+    "display_width" : null,
     "label" : "Image Radius",
     "required" : false,
     "locked" : false,
@@ -565,12 +583,14 @@
   }, {
     "id" : "694c0c71-0600-917f-e8a6-18bbd5de2045",
     "name" : "desktop_view_",
+    "display_width" : null,
     "label" : "Desktop View ",
     "required" : false,
     "locked" : false,
     "children" : [ {
       "id" : "41e34a96-33b4-2241-d6ab-2854dfd50eb3",
       "name" : "image_height_px_",
+      "display_width" : null,
       "label" : "Image Height(px)",
       "required" : false,
       "locked" : false,
@@ -583,6 +603,7 @@
     }, {
       "id" : "880a8d77-cea3-4385-5733-7d9c246435ce",
       "name" : "column",
+      "display_width" : null,
       "label" : "Column",
       "required" : false,
       "locked" : false,
@@ -601,12 +622,14 @@
   }, {
     "id" : "a1cae8a5-92f8-37ff-8a23-77bf9a5a8314",
     "name" : "tablet_view",
+    "display_width" : null,
     "label" : "Tablet View",
     "required" : false,
     "locked" : false,
     "children" : [ {
       "id" : "0405360e-c7d1-a7e6-a6a8-c87ea37f9b3b",
       "name" : "image_height_px_",
+      "display_width" : null,
       "label" : "Image Height(px)",
       "required" : false,
       "locked" : false,
@@ -619,6 +642,7 @@
     }, {
       "id" : "1dcc3341-5fda-af91-ccf3-992e85bc0874",
       "name" : "column",
+      "display_width" : null,
       "label" : "Column",
       "required" : false,
       "locked" : false,
@@ -637,12 +661,14 @@
   }, {
     "id" : "d13fab3e-cda1-034b-eb73-7f808d6ce379",
     "name" : "mobile_view",
+    "display_width" : null,
     "label" : "Mobile View",
     "required" : false,
     "locked" : false,
     "children" : [ {
       "id" : "f6012283-aaf9-7d66-8cf5-47d885000439",
       "name" : "image_height_px_",
+      "display_width" : null,
       "label" : "Image Height(px)",
       "required" : false,
       "locked" : false,
@@ -655,6 +681,7 @@
     }, {
       "id" : "6cddbe2a-1386-2eec-403d-017022ca5735",
       "name" : "column",
+      "display_width" : null,
       "label" : "Column",
       "required" : false,
       "locked" : false,

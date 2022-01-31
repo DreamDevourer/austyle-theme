@@ -1,6 +1,7 @@
 [ {
   "id" : "8937660b-98b6-d172-39f5-0ffbcd6fd9ca",
   "name" : "logo_color",
+  "display_width" : null,
   "label" : "Logo Color",
   "required" : false,
   "locked" : false,
@@ -21,6 +22,7 @@
 }, {
   "id" : "ad4b1d85-50a1-af40-bec6-2f94284ba75e",
   "name" : "logo_white",
+  "display_width" : null,
   "label" : "Logo White",
   "required" : false,
   "locked" : false,
@@ -41,6 +43,7 @@
 }, {
   "id" : "187ad7e4-ac75-aad1-7c4d-deec714cdd83",
   "name" : "logo_link",
+  "display_width" : null,
   "label" : "Logo Link",
   "required" : false,
   "locked" : false,
@@ -52,6 +55,7 @@
 }, {
   "id" : "e2c54af5-387c-2d7a-3d5a-cf48b274ac55",
   "name" : "menu_field",
+  "display_width" : null,
   "label" : "Menu",
   "required" : false,
   "locked" : false,
@@ -60,6 +64,7 @@
 }, {
   "id" : "602bd388-4eca-7c4c-da7c-24e4e7283b87",
   "name" : "include_cta",
+  "display_width" : null,
   "label" : "Include CTA",
   "required" : false,
   "locked" : false,
@@ -69,6 +74,7 @@
 }, {
   "id" : "f154bde8-003c-55fd-cc77-c135f888b195",
   "name" : "button_link",
+  "display_width" : null,
   "label" : "Button Link",
   "required" : false,
   "locked" : false,
@@ -94,6 +100,7 @@
 }, {
   "id" : "759dcc95-25d1-d982-e620-8516a2ea188c",
   "name" : "button_text",
+  "display_width" : null,
   "label" : "Button Text",
   "required" : false,
   "locked" : false,
@@ -112,6 +119,7 @@
 }, {
   "id" : "053f3019-2158-d79c-a64e-4e48da87e7c7",
   "name" : "mega_menu_",
+  "display_width" : null,
   "label" : "Mega Menu?",
   "required" : false,
   "locked" : false,
@@ -121,6 +129,7 @@
 }, {
   "id" : "8e4a2954-4dcf-6034-5d18-4c926fe197d4",
   "name" : "mega_menu_main_group",
+  "display_width" : null,
   "label" : "Mega Menu Main Group",
   "required" : false,
   "locked" : false,
@@ -140,6 +149,7 @@
   "children" : [ {
     "id" : "ea7bfb7b-ba89-d272-b634-b170723a1e5c",
     "name" : "mega_menu_name",
+    "display_width" : null,
     "label" : "Mega Menu Name",
     "required" : false,
     "locked" : false,
@@ -151,6 +161,7 @@
   }, {
     "id" : "4994e1ff-f1ce-dbd2-d824-b4d6c1fc4aca",
     "name" : "mega_menu_group",
+    "display_width" : null,
     "label" : "Mega Menu Group",
     "required" : false,
     "locked" : false,
@@ -163,6 +174,7 @@
     "children" : [ {
       "id" : "05b9c95d-3502-6763-ecaa-4f3c5b3c308d",
       "name" : "menga_menu_header",
+      "display_width" : null,
       "label" : "Menga Menu Header",
       "required" : false,
       "locked" : false,
@@ -171,6 +183,7 @@
     }, {
       "id" : "ac7103bb-05bd-a702-d44e-793df9f854ce",
       "name" : "mega_simple_menu",
+      "display_width" : null,
       "label" : "Mega Simple menu",
       "required" : false,
       "locked" : false,
@@ -756,6 +769,7 @@
 }, {
   "id" : "7904905a-8706-de44-a936-0ca106f8557d",
   "name" : "mobile_version_mega_menu",
+  "display_width" : null,
   "label" : "Mobile Version Mega Menu",
   "required" : false,
   "locked" : false,
@@ -775,6 +789,7 @@
   "children" : [ {
     "id" : "1b5c9509-3ead-9392-6d3a-cdb9815c482f",
     "name" : "menu_item",
+    "display_width" : null,
     "label" : "Menu Item",
     "required" : false,
     "locked" : false,
@@ -786,6 +801,7 @@
   }, {
     "id" : "b2454ffb-0253-57b6-d562-9acbb1fdc55f",
     "name" : "menu_group",
+    "display_width" : null,
     "label" : "Menu Group",
     "required" : false,
     "locked" : false,
@@ -798,6 +814,7 @@
     "children" : [ {
       "id" : "0ed9cde9-aa1f-3c08-ffdd-f906fcde076a",
       "name" : "menu_label",
+      "display_width" : null,
       "label" : "Menu Label",
       "required" : false,
       "locked" : false,
@@ -809,6 +826,7 @@
     }, {
       "id" : "1acf26eb-d2ed-b107-0d07-7d47de2088c1",
       "name" : "menu_items_link",
+      "display_width" : null,
       "label" : "Menu Items Link",
       "required" : false,
       "locked" : false,

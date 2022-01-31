@@ -1,6 +1,7 @@
 [ {
   "id" : "db3ddee9-aebe-bdbc-7bef-a58680d57e0f",
   "name" : "main_group",
+  "display_width" : null,
   "label" : "Main Group",
   "required" : false,
   "locked" : false,
@@ -13,6 +14,7 @@
   "children" : [ {
     "id" : "b7868305-fa48-6af8-479e-e4ecd2fe105c",
     "name" : "title",
+    "display_width" : null,
     "label" : "Header",
     "required" : false,
     "locked" : false,
@@ -24,6 +26,7 @@
   }, {
     "id" : "746b70b0-d800-edd0-719e-c52b3c0fec56",
     "name" : "title_icon",
+    "display_width" : null,
     "label" : "Icon",
     "required" : false,
     "locked" : false,
@@ -37,6 +40,7 @@
   }, {
     "id" : "f37e9846-5bc1-f0d0-9f86-eaa71fa3f033",
     "name" : "details1",
+    "display_width" : null,
     "label" : "Text",
     "required" : false,
     "locked" : false,
@@ -45,6 +49,7 @@
   }, {
     "id" : "22a3b32a-d70c-dd65-e13d-a8e7875bf56d",
     "name" : "details2",
+    "display_width" : null,
     "label" : "List",
     "required" : false,
     "locked" : false,
@@ -67,6 +72,7 @@
 }, {
   "id" : "e05ca56c-6a39-4693-fd22-360df7af97e6",
   "name" : "number_bg_color",
+  "display_width" : null,
   "label" : "Circle Color",
   "required" : false,
   "locked" : false,
@@ -78,6 +84,7 @@
 }, {
   "id" : "bde8d81c-a588-316b-d60c-626a21af5aba",
   "name" : "icon_color",
+  "display_width" : null,
   "label" : "Icon Color",
   "required" : false,
   "locked" : false,
@@ -89,6 +96,7 @@
 }, {
   "id" : "f1983565-c62a-ba3b-f558-3f2aba899f08",
   "name" : "id_dev",
+  "display_width" : null,
   "label" : "Id",
   "required" : false,
   "locked" : false,

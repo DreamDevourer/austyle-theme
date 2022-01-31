@@ -1,6 +1,7 @@
 [ {
   "id" : "8c76be33-a325-ee57-3af7-166990e4cd28",
   "name" : "image_field",
+  "display_width" : null,
   "label" : "Image",
   "required" : false,
   "locked" : false,
@@ -15,6 +16,7 @@
 }, {
   "id" : "38cd456a-e226-31a8-aba8-87e980c7e2d2",
   "name" : "title",
+  "display_width" : null,
   "label" : "Title",
   "required" : false,
   "locked" : false,
@@ -26,6 +28,7 @@
 }, {
   "id" : "4472aa76-e511-3b98-c05c-6c763ab93c16",
   "name" : "richtext_field",
+  "display_width" : null,
   "label" : "Text",
   "required" : false,
   "locked" : false,
@@ -34,12 +37,14 @@
 }, {
   "id" : "8293e8f3-ee44-12b1-8536-5ef30a66ed4e",
   "name" : "cta_options",
+  "display_width" : null,
   "label" : "CTA Options",
   "required" : false,
   "locked" : false,
   "children" : [ {
     "id" : "adc083ff-268b-74a7-720a-34962522354c",
     "name" : "button_text",
+    "display_width" : null,
     "label" : "Button Text",
     "required" : false,
     "locked" : false,
@@ -52,6 +57,7 @@
   }, {
     "id" : "99e704e2-353e-4b50-9cd2-4043cffc418b",
     "name" : "button_link",
+    "display_width" : null,
     "label" : "Button Link",
     "required" : false,
     "locked" : false,
@@ -86,6 +92,7 @@
 }, {
   "id" : "78fd81a0-1eac-2a9e-3902-e59a5cab876b",
   "name" : "overlay_color",
+  "display_width" : null,
   "label" : "BG Color",
   "required" : false,
   "locked" : false,
@@ -97,6 +104,7 @@
 }, {
   "id" : "f31c5017-003c-5527-fe62-0b31d4c770c3",
   "name" : "text_color",
+  "display_width" : null,
   "label" : "Text Color",
   "required" : false,
   "locked" : false,

@@ -1,6 +1,7 @@
 [ {
   "id" : "0e42c577-14cb-1e8b-48e5-5ccadeae98b9",
   "name" : "hide_and_show_button",
+  "display_width" : null,
   "label" : "Hide And Show Button",
   "required" : false,
   "locked" : false,
@@ -10,6 +11,7 @@
 }, {
   "id" : "3b12bd22-8e3f-f24a-f4a2-700c6b9b8833",
   "name" : "details",
+  "display_width" : null,
   "label" : "Details",
   "required" : false,
   "locked" : false,
@@ -18,6 +20,7 @@
 }, {
   "id" : "71b9377d-663b-34ef-cdc7-e903980658e7",
   "name" : "button_text",
+  "display_width" : null,
   "label" : "Button Text",
   "required" : false,
   "locked" : false,
@@ -29,6 +32,7 @@
 }, {
   "id" : "37aa0351-5601-727c-2cbe-14ab0f9f09b9",
   "name" : "button_link",
+  "display_width" : null,
   "label" : "Button Link",
   "required" : false,
   "locked" : false,

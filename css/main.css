@@ -12,3 +12,4 @@
 {% include './components/_footer.css' %}
 {% include './templates/_blog.css' %}
 {% include './templates/_system.css' %}
+{% include './Style2.css' %}

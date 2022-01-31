@@ -1,6 +1,7 @@
 [ {
   "id" : "d58cafb3-9251-e340-5f37-2259addfe557",
   "name" : "background_image",
+  "display_width" : null,
   "label" : "Background Image",
   "required" : false,
   "locked" : false,
@@ -18,6 +19,7 @@
 }, {
   "id" : "efc5e133-9278-5589-770b-a5d99900839f",
   "name" : "section_title",
+  "display_width" : null,
   "label" : "Section Title",
   "required" : false,
   "locked" : false,
@@ -29,6 +31,7 @@
 }, {
   "id" : "61d40307-25e9-abd3-8d18-cebbcbee8f2b",
   "name" : "overlay",
+  "display_width" : null,
   "label" : "Overlay",
   "required" : false,
   "locked" : false,
@@ -40,6 +43,7 @@
 }, {
   "id" : "196a18cc-23b3-14e9-bdb9-323e480f7102",
   "name" : "divider",
+  "display_width" : null,
   "label" : "Divider",
   "required" : false,
   "locked" : false,
@@ -49,6 +53,7 @@
 }, {
   "id" : "df3c2b9b-e5f1-1cb7-60c6-0c9e8f4f0041",
   "name" : "divider_color",
+  "display_width" : null,
   "label" : "Divider Color",
   "required" : false,
   "locked" : false,
@@ -67,6 +72,7 @@
 }, {
   "id" : "f73784fd-a475-a311-d774-4e5c2e21f60d",
   "name" : "section_id",
+  "display_width" : null,
   "label" : "Id",
   "required" : false,
   "locked" : false,

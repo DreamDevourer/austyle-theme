@@ -1,6 +1,7 @@
 [ {
   "id" : "c9ce3792-2d20-62cc-91c7-2cddb55f7211",
   "name" : "image_field",
+  "display_width" : null,
   "label" : "Image",
   "required" : false,
   "locked" : false,
@@ -21,6 +22,7 @@
 }, {
   "id" : "41ea4162-562e-05db-cd48-6e5e9d96abd1",
   "name" : "richtext_field",
+  "display_width" : null,
   "label" : "Rich text",
   "required" : false,
   "locked" : false,
@@ -29,6 +31,7 @@
 }, {
   "id" : "57017524-0d55-c780-7256-af94325352a8",
   "name" : "form_field",
+  "display_width" : null,
   "label" : "Form",
   "required" : false,
   "locked" : false,
